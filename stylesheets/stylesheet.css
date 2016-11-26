@@ -487,6 +487,18 @@ header h2 {
   margin: 0 auto;
 }
 
+.cont-img{
+  position: absolute;
+  width: 150px;
+  left: -20px;
+}
+
+.cont-title{
+  position: relative;;
+  width: 0 auto;
+  left: 150px;
+}
+
 #content-wrapper {
   padding-top: 30px;
   border-top: solid 1px #fff;
