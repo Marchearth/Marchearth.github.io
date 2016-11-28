@@ -150,7 +150,7 @@ mark {
  * Address inconsistent and variable font size in all browsers.
  */
 
-small {
+small{
   font-size: 80%;
 }
 
@@ -323,14 +323,6 @@ input {
   line-height: normal;
 }
 
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box; /* 1 */
@@ -452,8 +444,8 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: 'Space Mono', monospace;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
@@ -487,7 +479,7 @@ header h2 {
   margin: 0 auto;
 }
 
-.cont-img{
+.cont-icon{
   position: absolute;
   width: 150px;
   left: -20px;
@@ -499,6 +491,25 @@ header h2 {
   left: 150px;
 }
 
+.banner{
+  position: relative;;
+  width: 400px;
+  length: 150px;
+}
+
+.catch-phrase{
+  position: absolute;
+  line-height: 0.9;
+  top: 10px;
+  left: 20px;
+}
+
+.bubble{
+  position: absolute;
+  top: 5px;
+  left: 320px;
+}
+
 #content-wrapper {
   padding-top: 30px;
   border-top: solid 1px #fff;
@@ -507,6 +518,14 @@ header h2 {
 #main-content {
   float: left;
   width: 690px;
+}
+
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Space Mono', monospace;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #275da1;
 }
 
 #main-content img {
