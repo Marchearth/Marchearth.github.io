@@ -1,5 +1,4 @@
-# BotterLord
-My personal side project that is inspired by TIS-100, Lorenmud and Overlord. 
-It's in a simple MUD like style that relies on text and ASCII maps.
-This is a programming game where you need to program your minions to win encounters with the monsters of the land.
-# Srs.Bot-Website
+<img src = https://c6.staticflickr.com/1/564/30964115533_29e44bc8be_b.jpg>
+<br>Personal Website.
+<br>
+Made with stylesheet and inspiration from Jason Long using the Architect Theme.
