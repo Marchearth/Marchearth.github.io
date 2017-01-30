@@ -153,7 +153,6 @@ mark {
 small{
   font-size: 80%;
 }
-
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
@@ -504,6 +503,35 @@ header h2 {
   left: 20px;
 }
 
+aside a.git_button {
+  position: inherit;
+  display: block;
+  width: 138px;
+  length: 70px;
+  padding-left: 64px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+
+.twitter_button
+{
+  position: absolute;;
+  display: block;
+  top: 10px;
+  right: 0px;
+}
+
+.flickr_button
+{
+  position: absolute;;
+  display: block;
+  width: 50px;
+  top: 80px;
+  right: 0px;
+}
+
 .bubble{
   position: absolute;
   top: 5px;
@@ -536,6 +564,7 @@ li a {
     letter-spacing: -1px;
 }
 
+
 #content-wrapper {
   padding-top: 30px;
   border-top: solid 1px #fff;
@@ -552,6 +581,10 @@ footer{
   font-family: 'Space Mono', monospace;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
+}
+
+disqus_thread{
+
 }
 
 #main-content img {
@@ -590,6 +623,7 @@ a.button {
 a.button small {
   display: block;
   font-size: 11px;
+  line-height: 10px;
 }
 header a.button {
   position: absolute;
