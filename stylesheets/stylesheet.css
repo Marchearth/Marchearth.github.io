@@ -634,14 +634,14 @@ li a {
     float: left;
     width: 690px;
 }
-
+/*
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Space Mono', monospace;
     background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
     border-bottom: solid 1px #275da1;
-}
+}*/
 
 disqus_thread {}
 
