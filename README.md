@@ -6,3 +6,6 @@
 <br> I don't usually do web development but this turned out pretty nice, though it's not finished yet so
 <br> I don't know what will the final version will look like.
 Made with stylesheet and inspiration from Jason Long using the Architect Theme.
+
+## Road Plan:
+> Add commits feed to the home page.
