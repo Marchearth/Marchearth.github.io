@@ -4649,12 +4649,17 @@ ZYGOMYCETES ZYGOPLEURAL ZYGOSPHENES ZYGOTICALLY ZYMOGENESES ZYMOGENESIS\
 ZYMOLOGICAL ZYMOLOGISTS ZYMOSIMETER ZYMOTECHNIC ZYMOTICALLY\
 "
    ,txttmp = text.split(/\s+/)
-   ,keyword = txttmp[Math.floor(Math.random()*txttmp.length)];
+   ,keyword = txttmp[Math.floor(Math.random()*txttmp.length)]; //Choose a random word from the list
 var fixedKeyword = keyword.toLowerCase();
+
 var capitalizedKeyword = fixedKeyword.replace(/\b\w/g, function(l){ return l.toUpperCase() });
-var title = document.getElementById("rtitle").innerHTML
-var titleLength = title.length;
-if (titleLength < 20)
+
+if (capitalizedKeyword.length >= 11)
 {
-  document.getElementById("rtitle").innerHTML = "Srs.Bot " + capitalizedKeyword;
+  slicedTitle = capitalizedKeyword.slice(0, 11)
 }
+
+var title = document.getElementById("rtitle").innerHTML
+console.log(title);
+
+  document.getElementById("rtitle").innerHTML = "Srs.Bot " + slicedTitle;
