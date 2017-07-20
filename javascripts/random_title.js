@@ -4651,5 +4651,10 @@ ZYMOLOGICAL ZYMOLOGISTS ZYMOSIMETER ZYMOTECHNIC ZYMOTICALLY\
    ,txttmp = text.split(/\s+/)
    ,keyword = txttmp[Math.floor(Math.random()*txttmp.length)];
 var fixedKeyword = keyword.toLowerCase();
-var capitalizedKeyword = fixedKeyword.replace(/\b\w/g, function(l){ return l.toUpperCase() })
-document.getElementById("rtitle").innerHTML = "Srs.Bot " + capitalizedKeyword
+var capitalizedKeyword = fixedKeyword.replace(/\b\w/g, function(l){ return l.toUpperCase() });
+var title = document.getElementById("rtitle").innerHTML
+var titleLength = title.length;
+if (titleLength < 20)
+{
+  document.getElementById("rtitle").innerHTML = "Srs.Bot " + capitalizedKeyword;
+}
