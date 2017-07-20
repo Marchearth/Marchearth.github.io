@@ -1,0 +1,103 @@
+/* begin styles for RSS Feed */
+
+.rss-box {
+  top:10px;
+  font-size: 10px;
+  font-weight: lighter;
+  width: 200px;
+  background-color: transparent;
+  opacity: 0.8;
+  border: 2px groove #FFFFFF;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding: 3px;
+  word-wrap: normal;
+}
+
+.rss-items {
+  list-style-type: square;
+  line-height: 15px;
+  font-family: "Courier New" margin-top:0px;
+  padding: 0.5em;
+  0.5em;
+  margin-left: 0px;
+  color: #FFFFFF;
+}
+
+.rss-item {
+  font-family: "Courier New" font-size: 10px;
+  list-style: none;
+  padding-bottom: 1em;
+}
+
+.rss-item a {
+  text-decoration: none;
+  color: #3300FF;
+  /*font-size: 12px;*/
+  font-weight: lighter;
+  font-family: "Courier New";
+}
+
+.rss-item a:visited {
+  color: #330066;
+}
+
+.rss-date {
+  font-size: 0%;
+  font-weight: normal;
+  color: transparent;
+}
+
+
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
+
+.pod-play {
+  _width: 12em;
+  margin: 0 0.2em;
+  padding: 0.1em 0;
+  _padding: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: middle;
+  background: #fb6;
+  color: black;
+}
+
+.pod-play em {
+  _width: 1em;
+  _cursor: hand;
+  font-style: normal;
+  margin: 0;
+  padding: 0.1em 0.5em;
+  background: white;
+  color: #222;
+}
+
+.pod-play span {
+  _width: 1em;
+  _cursor: hand;
+  margin: 0;
+  padding: 0.1em 0.5em 0.1em 0.3em;
+}
+
+.pod-play:hover {
+  background: #666;
+  color: white;
+}
+
+.pod-play:hover em {
+  background: black;
+  color: white
+}
+
+.rss-title, rss_title a {
+  font-family: "Courier New"
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 10px;
+  margin: 0px 0;
+  margin-bottom: 0.5em;
+  padding: 2px;
+  color: #FFFFF;
+  text-decoration: underline;
+}
