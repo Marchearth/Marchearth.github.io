@@ -9,4 +9,4 @@ collections:
     title: Uploads
     output: true
 gems:
-  - jekyll-feed
+- jekyll-feed
