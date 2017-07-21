@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
   <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/myfeed.css" media="all">
+  <link rel="stylesheet" href="stylesheets/myfeed.css" media="screen">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <script src="javascripts/jquery-3.2.0.min.js"></script>
 
@@ -41,11 +41,11 @@
 
 
       <div class="navbar">
-        <ul>
-          <li a><a href="index.html">Home</a></li>
-          <li a><a href="news.asp">Blog</a></li>
-          <li><a href="contact.asp">Projectx</a></li>
-          <li style="float:right"><a href="about.asp">About</a></li>
+        <ul class="navbarr">
+          <li class="navlinks"><a href="index.html">Home</a></li>
+          <li class="navlinks"><a href="news.asp">Blog</a></li>
+          <li class="navlinks"><a href="contact.asp">Projects</a></li>
+          <li class="navlinks" style="float:right"><a href="about.asp">About</a></li>
         </ul>
       </div>
 
@@ -71,24 +71,32 @@
           # BotterLord:<br> My personal side project that is inspired by TIS-100, Lorenmud and Overlord. It's in a simple MUD like style that relies on text and ASCII maps. This is a programming game where you need to program your minions to win encounters
           with the monsters of the land.
         </p>
+
       </section>
 
       <aside id="sidebar">
 
         <a href="https://github.com/Marchearth/" class="git_button">
-                    <small>See my projects on</small> Github
-                </a>
-                <script language="JavaScript" src="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fgithub.com%2Fmarchearth.atom&num=10&desc=-1&utf=y"  charset="UTF-8" type="text/javascript"></script>
+          <small>See my </small>
+          <small><br>projects on</small>
+          <br> Github
+        </a>
 
-        <noscript>
-        <a href="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fgithub.com%2Fmarchearth.atom&num=10&desc=-1&utf=y&html=y">View RSS feed</a>
-        </noscript>
+        <div class="rss-box">
+          <a>Active Projects</a>
+          <ul class="rss-items">
+            <li style="margin-bottom:10px">BotterLord</li>
+            <li>marchearth.github.io</li>
+          </ul>
+        </div>
+        <div class="twitter-feed">
+          <a class="twitter-timeline" data-width="210" data-height="500" data-theme="dark" data-link-color="#F5F8FA" href="https://twitter.com/Marnsghol">Tweets by Marnsghol</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
 
         <p class="repo-owner">
-
-
           <a href="https://github.com/Marchearth/BotterLord"></a> is maintained by <a href="https://github.com/Marchearth">Marchearth</a>.</p>
-        <p>This page was made by <a href="https://github.com/Marchearth">Buğra Coşkun<small>(aka. Marchearth)</small></a> using the Architect theme stylesheet.css by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        <p>This page was made by <a href="https://github.com/Marchearth">Buğra Coşkun<small>(aka. Marchearth or Marnsghol)</small></a> using the Architect theme stylesheet.css by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
 
       </aside>
 
@@ -96,9 +104,6 @@
 
     </div>
   </div>
-  <footer>
-    <p>TEST TEST TEST </p>
-  </footer>
 
 </body>
 

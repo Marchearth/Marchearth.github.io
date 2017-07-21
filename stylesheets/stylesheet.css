@@ -548,8 +548,8 @@ aside a.git_button {
   length: 70px;
   padding-left: 64px;
   padding-bottom: 20px;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 2px;
+  font-size: 18px;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 
@@ -597,19 +597,19 @@ img {
   width: 200px;
 }
 
-ul {
+ul.navbarr {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+li.navlinks {
   display: inline;
   ;
 }
 
-li a {
+li.navlinks a {
   display: inline;
   ;
   color: white;
@@ -687,7 +687,6 @@ a.button {
 a.button small {
   display: block;
   font-size: 11px;
-  line-height: 10px;
 }
 
 header a.button {

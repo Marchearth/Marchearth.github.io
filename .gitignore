@@ -1,2 +1,4 @@
 .git
-params.json
+javascripts/gitfeed.js
+javascripts/xmldoc.js
+_config.yml
