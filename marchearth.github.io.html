@@ -1,3 +1,4 @@
+&#2019
 <img src = https://farm5.staticflickr.com/4302/35202435214_e613155326_o.png>
 <br>Personal Website. Logo by my dear friend <a href="https://sketchfab.com/DaLungSwood">Gorkem Goger</a>
 
