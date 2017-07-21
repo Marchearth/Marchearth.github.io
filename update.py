@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Update atom feed, md docs in index
 import urllib2
 import requests
@@ -27,4 +28,4 @@ def download_md(url):
 
 download_md("https://raw.githubusercontent.com/Marchearth/BotterLord/master/README.md")
 download_md("https://raw.githubusercontent.com/Marchearth/marchearth.github.io/master/README.md")
-download_md("github.com/marchearth.atom")
+download_md("https://github.com/marchearth.atom")
