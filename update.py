@@ -31,7 +31,7 @@ download_md("https://github.com/marchearth.atom")
 
 def git_commit():
     commands = \
-    """git add -A | git commit -am "Auto content update. (Srs.Bot-Website/update.py)" | git push"""
+    """git add -A & git commit -am "Auto content update. (Srs.Bot-Website/update.py)" & git push"""
     process = subprocess.Popen(commands,stdout=subprocess.PIPE, shell=True, universal_newlines=False)
     print process.stdout.read()
 
