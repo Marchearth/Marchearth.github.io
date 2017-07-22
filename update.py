@@ -31,12 +31,9 @@ download_md("https://github.com/marchearth.atom")
 
 def git_commit():
     commands = \
-    """\
-    git add -A &\
-    git commit -a -m "Auto content update. (Srs.Bot-Website/update.py)" --no-edit &\
-    git push
+    """git add -A & git commit -a -m"Auto content update. (Srs.Bot-Website/update.py)" & git push
     """
     os.system(commands)
 
 
-git_commit()
+#git_commit()
