@@ -5,8 +5,7 @@
   margin-left: 0.8em;
   margin-right: 0.8em;
   padding: 10px;
-  border: 2px #FFFFFF;
-  border-bottom: : 2px #FFFFFF;
+
   font-family: 'Courier New', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   color: inherit;
   text-indent: 6px;
@@ -49,4 +48,13 @@ img.screenshot
     margin-left: inherit;
     margin-right: inherit;
     width:95%;
+}
+
+.markdown_line
+{
+  margin-top: 1em;
+  border-bottom: 5px;
+  border-style: dashed;
+  border-color: #FFFFFF;
+  width: inherit;
 }
