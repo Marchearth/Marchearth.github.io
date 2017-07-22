@@ -28,4 +28,15 @@ def download_md(url):
 download_md("https://raw.githubusercontent.com/Marchearth/BotterLord/master/README.md")
 download_md("https://raw.githubusercontent.com/Marchearth/marchearth.github.io/master/README.md")
 download_md("https://github.com/marchearth.atom")
-os.system("cmd")
+
+def git_commit():
+    commands = \
+    """\
+    echo Auto content updater: &\
+    git commit -a -m "Auto content update. (Srs.Bot-Website/update.py)" --no-edit &\
+    git push
+    """
+    process = subprocess.Popen(commands,stdout=subprocess.PIPE, shell=True, universal_newlines=True)
+    print process.stdout.read()
+
+git_commit()
