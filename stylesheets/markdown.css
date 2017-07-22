@@ -1,7 +1,7 @@
 .markdown_page
 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.8em;
   margin-left: 0.8em;
   margin-right: 0.8em;
   padding: 10px;
@@ -13,7 +13,6 @@
 }
 .markdown_title
 {
-  margin-top: 0.3em;
   margin-bottom: 0;
   margin-left: 0.8em;
   font-size: 2em;
