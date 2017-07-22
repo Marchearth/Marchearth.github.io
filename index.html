@@ -13,7 +13,14 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.css" media="screen">
   <link rel="stylesheet" href="stylesheets/myfeed.css" media="screen">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="javascripts/jquery-3.2.0.min.js"></script>
+  <script src="javascripts/jquery-3.2.1.min.js"></script>
+  <script src="javascripts/main.js"></script>
+  <script>
+    $(function(){
+      $("#BL").load("BotterLord.html");
+    });
+  </script>
+
 
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -66,7 +73,7 @@
   <div id="content-wrapper">
     <div class="inner clearfix">
       <section id="main-content">
-        <text src="https://raw.githubusercontent.com/Marchearth/BotterLord/master/README.md"></script>
+        <div id="BL"></div>
       </section>
 
       <aside id="sidebar">
