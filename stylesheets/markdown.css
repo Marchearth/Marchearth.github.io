@@ -1,0 +1,44 @@
+.markdown_page
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  padding: 10px;
+  border: 2px groove ;
+  border-radius: 2%;
+  width: 50%;
+  font-family: 'Courier New', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  color: inherit;
+  text-indent: 6px;
+  letter-spacing: -1px;
+}
+.markdown_title
+{
+  margin-top: 0.3em;
+  margin-bottom: 0;
+  margin-left: 0.8em;
+  font-size: 2em;
+  font-weight: bold;
+  color: inherit;
+
+}
+
+.markdown_text
+{
+  padding-right: 3%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.8em;
+  margin-right: : 0.8em;
+  font-size: 1em;
+  font-weight: normal;
+  color: inherit;
+}
+img
+{
+    margin-top: 1em;
+    margin-left: inherit;
+    margin-right: inherit;
+    width:95%;
+}
