@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Update atom feed, md docs in index
-import requests
+import requests, os, subprocess
 from xml.etree import ElementTree as ET
 
 def download_md(url):
@@ -25,8 +25,7 @@ def download_md(url):
         write_file.write(html.content)
 
 
-
-
 download_md("https://raw.githubusercontent.com/Marchearth/BotterLord/master/README.md")
 download_md("https://raw.githubusercontent.com/Marchearth/marchearth.github.io/master/README.md")
 download_md("https://github.com/marchearth.atom")
+os.system("cmd")
