@@ -1,6 +1,6 @@
 .markdown_page
 {
-  margin-top: 0;
+  margin-top: -1.5em;
   margin-bottom: 0.8em;
   margin-left: 0.8em;
   margin-right: 0.8em;
@@ -13,8 +13,7 @@
 }
 .markdown_title
 {
-  text-decoration: underline;
-  margin-bottom: 0;
+  margin-bottom: -0.6em;
   margin-left: 0.8em;
   font-size: 2em;
   font-weight: bold;
@@ -52,9 +51,9 @@ img.screenshot
 
 .markdown_line
 {
-  margin-top: 1em;
-  border-bottom: 5px;
-  border-style: dashed;
+  margin-top: -1em;
+  margin-bottom: 2em;
+  border-bottom: 4px dotted;
   border-color: #FFFFFF;
   width: inherit;
 }
