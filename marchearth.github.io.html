@@ -1,9 +1,29 @@
-&#2019
-<img src = https://farm5.staticflickr.com/4302/35202435214_e613155326_o.png>
-<br>Personal Website. Logo by my dear friend <a href="https://sketchfab.com/DaLungSwood">Gorkem Goger</a>
+<!DOCTYPE html>
+<html>
 
-Made with stylesheet and inspiration from Jason Long using the Architect Theme.
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/markdown.css" media="screen">
+</head>
 
-## Road Plan:
-> Add commits feed to the home page.
-> Auto display project markdown pages on main content div.
+<body>
+
+  <div class="markdown_page">
+    <img src = "https://farm5.staticflickr.com/4302/35202435214_e613155326_o.png">
+    <p class="markdown_title">marchearth.github.io</p>
+    <p class="markdown_text">
+      <br>Personal Website. Logo by my dear friend <a href="https://sketchfab.com/DaLungSwood">Gorkem Goger</a>
+    </p>
+    <br>
+
+    <p class=markdown_list_title> Road Map: </p>
+    <ul style="list-style-type:square">
+      <li> Add commits feed to the home page. </li>
+      <li> Auto display project markdown pages on main content div. </li>
+    </ul>
+    
+  </div>
+
+
+</body>
+
+</html>
