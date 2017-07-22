@@ -36,7 +36,7 @@ def git_commit():
     git commit -a -m "Auto content update. (Srs.Bot-Website/update.py)" --no-edit &\
     git push
     """
-    process = subprocess.Popen(commands,stdout=subprocess.PIPE, shell=True, universal_newlines=False)
-    print process.stdout.read()
+    os.system(commands)
+
 
 git_commit()
