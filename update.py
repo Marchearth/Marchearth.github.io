@@ -33,6 +33,7 @@ def git_commit():
     commands = \
     """\
     echo Auto content updater: &\
+    git add -A &\
     git commit -a -m "Auto content update. (Srs.Bot-Website/update.py)" --no-edit &\
     git push
     """
