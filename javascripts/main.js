@@ -5,3 +5,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#SB").load("marchearth.github.io.html");
 });
+
+$(document).ready(function(){
+  $("#GR").load("marchearth.github.io.html");
+});
