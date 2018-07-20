@@ -7,5 +7,5 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#GR").load("marchearth.github.io.html");
+  $("#GR").load("GRAT.html");
 });
