@@ -653,7 +653,9 @@ footer {
 disqus_thread {}
 
 #main-content img {
+  border: 2px solid #FFFFFF ;
   max-width: 100%;
+  border-radius:10px;
 }
 
 aside#sidebar {

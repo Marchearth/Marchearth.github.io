@@ -1,19 +1,18 @@
 
 .twitter-feed {
-  border: 2px groove #FFFFFF ;
-  border-bottom: 3px groove;
+  border: 2px solid #FFFFFF ;
+  border-bottom: 3px solid;
   border-radius: 5px;
   margin-bottom: 10px;
   height: 499px;
 }
 
 .rss-box {
-  top:10px;
   font-size: 10px;
   font-weight: lighter;
   background-color: transparent;
   opacity: 1;
-  border: 2px groove #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 10px;
   letter-spacing: 1px;
   padding-top: 3px;
@@ -24,7 +23,7 @@
 .rss-box a {
   font-size: 15px;
   opacity: 1;
-  font-weight: bold;
+  font-weight: normal;
   padding: 20px;
   color: #FFFFFF;
 }
@@ -56,8 +55,22 @@ ul.rss-items{
   text-decoration: underline;
 }
 
-.img_container {
-  border: 2px groove #FFFFFF;
+.rss-msg {
+  height: 40px;
+  font-size: 10px;
+  background-color: transparent;
+  opacity: 1;
+  border: 2px solid #FFFFFF;
   border-radius: 10px;
-  padding: 5px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding-top:5px;
+  padding-left:6px;
+}
+
+.rss-msg p {
+  font-size: 13px;
+  opacity: 1;
+  font-weight: normal;
+  color: #FFFFFF;
 }
