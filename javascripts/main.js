@@ -9,3 +9,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#GR").load("GRAT.html");
 });
+
+$(document).ready(function(){
+  $("#SS").load("pic_slide.html");
+});
