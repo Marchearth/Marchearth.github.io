@@ -13,3 +13,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#SS").load("pic_slide.html");
 });
+
+$(document).ready(function(){
+  $("#HF").load("heat_flux.html");
+});
