@@ -17,3 +17,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#HF").load("heat_flux.html");
 });
+
+$(document).ready(function(){
+  $("#IND").load("index.html");
+});
