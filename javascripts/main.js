@@ -21,3 +21,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#IND").load("index.html");
 });
+
+$(document).ready(function(){
+  $("#SPKR").load("speaker.html");
+});
