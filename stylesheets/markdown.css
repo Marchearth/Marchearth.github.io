@@ -40,7 +40,7 @@
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0.8em;
-  margin-right: : 0.8em;
+  margin-right: 0.8em;
   font-size: 1em;
   font-weight: normal;
   color: inherit;
@@ -48,7 +48,6 @@
 img.screenshot
 {
     margin-top: 1em;
-    margin-left: inherit;
     margin-right: 0.9;
     width:95%;
 }
