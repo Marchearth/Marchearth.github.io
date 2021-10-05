@@ -874,6 +874,8 @@ h6:before {
 }
 
 p {
+  text-align: justify !important;
+  justify-content: flex-end !important;
   margin-bottom: 20px;
 }
 

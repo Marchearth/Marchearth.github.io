@@ -25,3 +25,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#SPKR").load("speaker.html");
 });
+
+
+$(document).ready(function(){
+  $("#WIZTLE").load("wiztle.html");
+});
